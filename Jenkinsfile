@@ -37,8 +37,8 @@ pipeline{
 				rtMavenDeployer(
 					id:'deployer',
 					serverId:'123456789@artifactory',
-					releaseRepo:'',
-					snapshotRepo:''
+					releaseRepo:'Devops-Practice-Repo',
+					snapshotRepo:'Devops-Practice-Repo'
 				)
 				rtMavenRun(
 					pom:'pom.xml',
