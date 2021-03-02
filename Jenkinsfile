@@ -77,7 +77,7 @@ pipeline{
 				"""
 			}
 		}
-		stage('Checkout'){
+		stage('Run image'){
 			steps{
 				bat 'docker run --name c-mehaklakhanpal -d -p 6200:8080 mehaklakhanpal/devopssampleapplication:%BUILD_NUMBER%'
 			}
