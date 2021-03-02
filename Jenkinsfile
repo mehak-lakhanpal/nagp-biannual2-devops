@@ -94,7 +94,7 @@ pipeline{
 				allowMissing:false,
 				alwaysLinkToLastBuild:false,
 				keepAll:true,
-				reportDir:'//DemoSampleApp_selenium//target//surefire-reports',
+				reportDir:'\\DemoSampleApp_selenium\\target\\surefire-reports',
 				reportFiles:'index.html',
 				reportName:'Index.html'
 			])
